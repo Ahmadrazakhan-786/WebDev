@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Amazing Images</h2>
+    <div>
+    <ul id="images">
+        <li id="boy"><img src="https://img.freepik.com/premium-photo/cute-cool-boy-dabbing-pose-cartoon-vector-icon-illustration-people-fashion-icon-concept-isolated-premium-vector-flat-cartoon-style_839035-1769139.jpg?semt=ais_hybrid" alt=""></li>
+        <li id="baby"><img src="https://img.freepik.com/free-photo/cute-ai-generated-cartoon-bunny_23-2150288872.jpg" alt=""></li>
+    </ul>
+    </div>
+</body>
+<script>
+    // document.getElementById('boy').onclick = function(){
+    //     alert("boy clicked");
+    // }
+
+    // document.getElementById('images').addEventListener('click',function(e){
+    //     console.log("clicked inside the ul");
+    // },false) // event bubbling
+
+    // document.getElementById('boy').addEventListener('click',function(e){
+    //     console.log("owl clicked");
+    //     e.stopPropagation();
+    // },false)
+
+    document.querySelector('#images').addEventListener('click',function(e){
+        console.log(e.target.parentNode);
+        let removeIt = e.target.parentNode;
+        removeIt.remove(); // m-1:
+        // removeIt.parentNode.removeChild(removeIt); // m-2:
+    })
+
+    
+</script>
+</html>

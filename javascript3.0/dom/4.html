@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom with ark</title>
+</head>
+<body style="background-color: black; color: white;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(langname){
+       const li = document.createElement('li');
+       li.innerHTML = "langname";
+       document.querySelector('.language').append(li);
+    }
+    addLanguage("python");
+    addLanguage("typescript");
+
+    function addOptiLang(langname){
+       const li = document.createElement('li');
+       li.appendChild(document.createTextNode(langname))
+       document.querySelector('.language').appendChild(li);
+    }
+    addOptiLang('golang');
+
+    // Edit:
+    const secondlang = document.querySelector("li:nth-child(2)");
+    // secondlang.innerHTML = "mojo";
+    const newLi = document.createElement('li');
+    newLi.textContent = "mojo"
+    secondlang.replaceWith(newLi);
+
+   // Edit:
+   const firstlang = document.querySelector('li:first-child');
+   firstlang.outerHTML = '<li>Typescript</li>'
+
+   // remove:
+   const lastlang = document.querySelector('li:last-child');
+   lastlang.remove();
+</script>
+</html>

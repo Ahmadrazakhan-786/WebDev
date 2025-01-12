@@ -1,0 +1,106 @@
+/* h1{
+    color: red;
+}
+
+button{
+    color:brown;
+    background-color: aqua;
+}
+
+body{
+    background-color: black;
+}
+
+#one{
+    color: magenta;
+}
+
+#two{
+    color: blue;
+}
+
+.myclass{
+    color: magenta;
+} */
+
+.heading{
+    color: red;
+}
+
+#box{
+    color: blue;
+}
+
+/* button{
+    background-color: green;
+    color: white;
+} */
+
+/* p{
+    text-align: center;
+    background-color: aqua;
+    color: black;
+} */
+
+h1{
+    /* text-align: center;
+    background-color: pink;
+    color: black;
+    text-decoration: red dotted underline; */
+
+}
+#h1{
+    font-weight: normal;
+}
+#h2{
+    font-weight: bold;
+}
+#h3{
+    font-weight: lighter;
+}
+#h4{
+    font-weight: 900;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* #one{
+    font-family: arial;
+}
+
+#two{
+    font-family: 'Segoe UI';
+} */
+
+#one{
+    font-size: 25px;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#three{
+    font-size: 30px;
+}
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p{
+    text-transform: capitalize;
+}
+
+#two{
+    font-family: 'Times New Roman';
+}
+
+#outer{
+    font-size: 25px;
+}
+
+#inner{
+    font-size: 10px;
+}

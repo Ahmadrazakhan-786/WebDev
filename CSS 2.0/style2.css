@@ -1,0 +1,110 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: pink; */
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: aqua; */
+    /* border: 2px solid aqua;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1px 2px 3px 4px;
+    margin-bottom: 50px;
+
+} */
+
+/* h1{
+    
+    height: 50px;
+    width: 200px;
+    background-color: aqua; */
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: brown; */
+    /* border: 2px solid brown;
+    text-align: center;
+    border-radius: 10px;
+    
+} */
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    color: white;
+} */
+
+/* *{
+    padding: 0;
+    margin: 0;
+    color: white;
+} */
+
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+
+button{
+    background-color: #f08804;
+}
+
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+
+a{
+    margin-right: 160px;
+    text-decoration: none;
+}
+
+/* div{
+    background-color: aqua; */
+    /* display: inline; */
+    /* color: black;
+    height: 100px;
+    width: 100px;
+    margin: 25px;;
+    padding: 25px;
+    display: inline-block;
+    background-color: rgba(255, 0, 0,0.5);
+    
+} */
+
+#a{
+    background-color: rgba(0, 0, 255,0.5);
+}
+
+#b{
+    background-color: rgba(0,0,255,0.75);
+    /* visibility: hidden; */
+}
+
+#c{
+    background-color: rgba(0,0,255,1);
+}
+
+.contentBox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-right: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    text-align: center;
+}
+
+#content{
+    height: 450px;
+}
+
+footer{
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+}
+
