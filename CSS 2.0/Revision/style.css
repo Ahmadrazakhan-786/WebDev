@@ -7,6 +7,8 @@
 html,body{
     height: 100%;
     width: 100%;
+    background-color: black;
+    color: white;
 }
 
 h7{
@@ -19,8 +21,17 @@ h7{
     text-align: center; /* text ko kidhar se dikhana hai  */
 }
 
-div{
-    color: red;
-    background-color: black;
+
+diva{
+    /*box bnana ke kiye div ka use krte by giving height and width */
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
 }
 
+.a{
+    background-color: rosybrown;
+}
+
+
+/* agr same property multiple logo ko dena hai to class "." ko use krte hai aur agar ek property ek single person ko dena hai to use krte hai id "#" */
