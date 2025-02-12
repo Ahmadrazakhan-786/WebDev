@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+h7{
+    color: rgb(0, 170, 255);
+    background-color: black;  
+    font-size: 70px; 
+    font-family: monospace; 
+    font-weight: 900; /* text ko patla ya mota dikhane ke liye use krte h */
+    font-style: italic; /* text ka design change ke liye */
+    text-align: center; /* text ko kidhar se dikhana hai  */
+}
+
+div{
+    color: red;
+    background-color: black;
+}
+
