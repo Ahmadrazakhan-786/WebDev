@@ -29,9 +29,49 @@ diva{
     background-color: crimson;
 }
 
-.a{
+/* .a{
     background-color: rosybrown;
+} */
+
+
+/* agr same property multiple logo ko dena hai to class "." ko use krte hai aur agar ek property ek single person ko dena hai to use krte hai id "#"  */
+
+
+/* #box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 50px;
+    padding: 50px;
+} */
+
+/* margin : box ko move krna hai to margin use kro aur box ke ander ke ele ko use ya move krna hai to padding use kro */
+
+/* #parent{
+    height: 200px;
+    width: 400px;
+    background-color: crimson;
 }
 
+#child{
+    height: 50%;
+    width: 50%;
+    background-color: skyblue;
+} */
 
-/* agr same property multiple logo ko dena hai to class "." ko use krte hai aur agar ek property ek single person ko dena hai to use krte hai id "#" */
+/* % ka use tab krte hai jab parent ke respect me kaam krna hota hai */
+
+button{
+    margin: 40px;
+    font-size: 20px;
+    padding: 15px 30px;
+    background-color: lightseagreen;
+    color: white;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+button:hover{
+    background-color: crimson;
+}
