@@ -102,7 +102,7 @@ button:hover{
 }
 
 
-h1{
+/* h1{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -117,4 +117,34 @@ h1 span{
     font-size: 150px;
     font-weight: 200;
     padding: 20px 40px;
+} */
+
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    display: flex;   /* ek line me lana  */
+    align-items: center; /* align-items handles the y-axis */
+    justify-content: space-around; /* justify-contents handles the x-axis */
+}
+
+.child{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border: 2px solid white;
+    background-size: cover;
+    background-position: center;
+}
+
+#child1{
+    background-image: url(https://images.unsplash.com/photo-1739437455408-66aab68b5c0d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+#child2{
+    background-image: url(https://plus.unsplash.com/premium_photo-1682023586579-e38ca10343e5?q=80&w=1984&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+#child3{
+    background-image: url(https://images.unsplash.com/photo-1735399570412-fe0fd40fdcd6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
