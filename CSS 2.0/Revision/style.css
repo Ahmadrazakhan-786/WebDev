@@ -75,3 +75,46 @@ button{
 button:hover{
     background-color: crimson;
 }
+
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border: 2px solid white;
+    position: absolute;   /* position abs ka matlab hai hawa mein uthana */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); /* transform : to center a div */
+    z-index: 9;
+}
+
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(132, 99, 186);
+    border: 2px solid white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 10;  /* z-index ka use jisko top pe rkna hai dusre ke respect mein */
+    /* transform: translate(-50%,-50%); */
+
+}
+
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+h1 span{
+    color: crimson;
+    font-size: 150px;
+    font-weight: 200;
+    padding: 20px 40px;
+}
