@@ -70,7 +70,32 @@ section .box1{
     font-weight: 600;
     font-size: 18px;
     color: white;
+    
 
+}
+
+.box1:hover{
+    transform: scale(1.2);
+}
+
+.box2:hover{
+    transform: scale(1.2);
+}
+
+.box3:hover{
+    transform: scale(1.2);
+}
+
+.box4:hover{
+    transform: scale(1.2);
+}
+
+.box5:hover{
+    transform: scale(1.2);
+}
+
+.box6:hover{
+    transform: scale(1.2);
 }
 
 section .box2{
